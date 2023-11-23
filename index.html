@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Drawing App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Drawing Application</h1>
+  <canvas id="canvas"></canvas>
+  <div class="controls">
+    <input type="color" id="color-picker">
+    <select id="shape-selector">
+      <option value="line">Line</option>
+      <option value="circle">Circle</option>
+      <option value="rectangle">Rectangle</option>
+    </select>
+    <input type="range" id="pen-size" min="1" max="20">
+    <button id="clear-btn">Clear</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
